@@ -1,0 +1,74 @@
+﻿body{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/STS120LaunchHiRes-edit1.jpg);
+    background-size: auto; 
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    text-align: center;
+}
+
+
+div.pageheader h1,h2{
+    text-align: center;
+    text-shadow: -0.5px -0.5px black, -0.5px 0.5px black, 0.5px -0.5px black, 0.5px 0.5px black;
+}
+
+div.pagebody h1{
+    font-size: 100px;
+    text-align: left;
+}
+
+div.pagebody h2{
+    text-align: left;
+}
+
+div.pagebody{
+    text-align: center;
+    text-shadow: -0.5px -0.5px black, -0.5px 0.5px black, 0.5px -0.5px black, 0.5px 0.5px black;
+}
+
+div.pagebody{
+    display: flex;
+    margin-top: 50px;
+}
+
+div.pagebody section a:link{
+    border: 1px solid black;
+    opacity: 0.75;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+div.pagebody section a:hover, a:active {
+    opacity: 1;
+}
+
+div.pagebody section.about a:link{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/STS120LaunchHiRes-edit1.jpg);
+    background-size: 260px;
+    display: block;
+    dimesion: 10px;
+    width: 260px;
+    height: 400px;
+}
+div.pagebody section.about a h1{
+    background-image: none;
+    text-shadow: -0.5px -0.5px grey, -0.5px 0.5px grey, 0.5px -0.5px grey, 0.5px 0.5px grey;
+}
+
+div.pagebody section.history a:link{
+    background-image: url(http://darkroom.baltimoresun.com/wp-content/uploads/2012/10/AFP_Getty-3325577_1.jpg);
+    background-size: 520px;
+    display: block;
+    dimesion: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 520px;
+    height: 400px;
+}
+div.pagebody section.history a h1{
+    background-image: none;
+    text-shadow: -0.5px -0.5px grey, -0.5px 0.5px grey, 0.5px -0.5px grey, 0.5px 0.5px grey;
+}
