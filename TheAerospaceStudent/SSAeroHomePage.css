@@ -1,6 +1,7 @@
 ﻿body{
     background: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/STS120LaunchHiRes-edit1.jpg);
     background-size: auto; 
+    color: red;
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
